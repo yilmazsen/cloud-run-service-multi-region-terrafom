@@ -25,7 +25,7 @@ resource "google_cloud_run_service" "default" {
     annotations = {
       "autoscaling.knative.dev/maxScale" = "1000"
       "run.googleapis.com/client-name"   = "terraform"
-      "run.googleapis.com/ingress"       = "internal-and-cloud-load-balancing" // you can use "all" if you dont use ssl load-balancer
+      "run.googleapis.com/ingress"       = "internal-and-cloud-load-balancing" //If you do not utilize an SSL load balancer, you can use "all."
     }
   }
 
