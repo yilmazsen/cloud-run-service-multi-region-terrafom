@@ -5,20 +5,20 @@ This is the Terraform Multi-Region cloud run service creating tutorial according
 ## Try it Out 
 1. Initialize terraform modules:
 
-```code terraform init```
+```terraform init```
 
 
 2. Validate your .tf scripts
 
-``code terraform validate``
+``terraform validate``
 
 3. See the execution plan (which resources will be created or Which resources will be destroyed)
 
-``code terraform plan``
+``terraform plan``
 
 4. Apply the resources 
 
-``code terraform apply``
+``terraform apply``
 
 ## When we wish to clean them up, we will use the code below. You should be careful about the code.
 
